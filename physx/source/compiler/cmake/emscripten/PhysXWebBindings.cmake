@@ -95,7 +95,7 @@ SET_TARGET_PROPERTIES(PhysXWebBindings PROPERTIES
 )
 
 TARGET_LINK_LIBRARIES(PhysXWebBindings
-	PUBLIC PhysX PhysXCharacterKinematic PhysXCommon PhysXCooking PhysXExtensions PhysXFoundation PhysXVehicle 
+	PUBLIC PhysXCharacterKinematic PhysXCooking PhysXExtensions PhysXVehicle
 )
 GET_TARGET_PROPERTY(PHYSXFOUNDATION_INCLUDES PhysXFoundation INTERFACE_INCLUDE_DIRECTORIES)
 
