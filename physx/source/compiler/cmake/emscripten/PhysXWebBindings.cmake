@@ -107,3 +107,5 @@ TARGET_INCLUDE_DIRECTORIES(PhysXWebBindings
 
 # name the output library 'physx' as this is really a union of all of js-bound PhysX
 set_target_properties(PhysXWebBindings PROPERTIES OUTPUT_NAME "physx.${CMAKE_BUILD_TYPE}")
+
+SET_TARGET_PROPERTIES(PhysXWebBindings PROPERTIES POSITION_INDEPENDENT_CODE TRUE)
